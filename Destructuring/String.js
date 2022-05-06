@@ -1,5 +1,6 @@
 //ES6
-let [a, b] = "Hi";
+const text = "Hi";
+let [a, b] = text;
 
 console.log("First", a);
 console.log("Second", b);

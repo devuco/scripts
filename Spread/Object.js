@@ -1,16 +1,16 @@
 let obj = {
-	a: "value",
-	b: "value",
+	a: "value a",
+	b: "value b",
 };
 
 let obj1 = {
-	c: "value",
-	d: "value",
+	c: "value c",
+	d: "value d",
 };
 
 let newObj = {
-	obj,
-	obj1,
+	...obj,
+	...obj1,
 };
 
 console.log(newObj);
