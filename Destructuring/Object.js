@@ -17,8 +17,3 @@ let scores1 = {
 };
 const {pass, avg, fail} = scores1;
 console.log("ES6", pass, avg, fail);
-
-const arr = [1, 2, 3, 4];
-const value = arr.findIndex((element) => {
-	element > 2;
-});

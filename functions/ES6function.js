@@ -1,7 +1,7 @@
 const fun = () => console.log("ES6 Function");
 fun();
 
-const fun = () => {
+const funm = () => {
 	console.log("ES6 Multiline function");
 };
-fun();
+funm();
